@@ -1,4 +1,4 @@
-# Phylogenetic analysis of mat a-1 and mat A-1, mat A-2 and mat-A3 genes for Neurospora tetrasperma and heterothallic Neurospora
+# Phylogenetic analysis of mat a-1 and mat A-1, mat A-2 and mat A-3 genes for Neurospora tetrasperma and heterothallic Neurospora
 
 ## Summary
 Identified mat-a1 and mat-A genes for N. tetrasperma genomes using blastn, aligned sequences using MUSCLE and performed phylogenetic analysis using RAxML. The details of the steps are given below and are described in further details [here](https://github.com/padraicc/mat_locus_phylogenetics/blob/master/methods.md)
