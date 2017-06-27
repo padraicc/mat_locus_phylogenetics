@@ -13,9 +13,9 @@ python seqs_to_align.py --infile matA3_seqs.txt --lineage strain_lineage_map.txt
 
 
 # create mat A alignments
-python extract_align_region.py -infile data/mat_sanger_data/Neurospora_mat_A123.fas -start 1 -end 995 -out data/alignments/heterothallic_matA_1.fasta
-python extract_align_region.py -infile data/mat_sanger_data/Neurospora_mat_A123.fas -start 996 -end 2388 -out data/alignments/heterothallic_matA_2.fasta
-python extract_align_region.py -infile data/mat_sanger_data/Neurospora_mat_A123.fas -start 2389 -end 3526 --revcomp -out data/alignments/heterothallic_matA_3.fasta
+python extract_align_region.py -infile data/heterothallic_mat_aligns/Neurospora_mat_A123.fas -start 1 -end 995 -out data/alignments/heterothallic_matA_1.fasta
+python extract_align_region.py -infile data/heterothallic_mat_aligns/Neurospora_mat_A123.fas -start 996 -end 2388 -out data/alignments/heterothallic_matA_2.fasta
+python extract_align_region.py -infile data/heterothallic_mat_aligns/Neurospora_mat_A123.fas -start 2389 -end 3526 --revcomp -out data/alignments/heterothallic_matA_3.fasta
 
 cat data/alignments/heterothallic_matA_1.fasta >> data/alignments/matA1_unaligned.fasta
 cat data/alignments/heterothallic_matA_2.fasta >> data/alignments/matA2_unaligned.fasta
@@ -43,7 +43,7 @@ python fa2phylip.py -infile data/alignments/matA123.phylo_set.fasta -out data/al
 find data/mat_sequences/*mat_a1* data/*mat_a1.fasta > mat_a1_seqs.txt
 python seqs_to_align.py --infile mat_a1_seqs.txt --lineage strain_lineage_map.txt --outfile data/alignments/mat_a1_unaligned.fasta
 
-cat data/mat_sanger_data/Neurospora_mat_a1.fas >> data/alignments/mat_a1_unaligned.fasta
+cat data/heterothallic_mat_aligns/Neurospora_mat_a1.fas >> data/alignments/mat_a1_unaligned.fasta
 
 muscle -in data/alignments/mat_a1_unaligned.fasta -out data/alignments/mat_a1.temp.fasta
 
