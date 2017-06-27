@@ -1,4 +1,4 @@
-# Phylogenetic analysis of mat-a1 and mat A-1, mat A-2 and mat-A3 genes for Neurospora tetrasperma and heterothallic Neurospora
+# Phylogenetic analysis of mat a-1 and mat A-1, mat A-2 and mat-A3 genes for Neurospora tetrasperma and heterothallic Neurospora
 
 ## Summary
 Identified mat-a1 and mat-A genes for N. tetrasperma genomes using blastn, aligned sequences using MUSCLE and performed phylogenetic analysis using RAxML. The details of the steps are given below and are described in further details [here](https://github.com/padraicc/mat_locus_phylogenetics/blob/master/methods.md)
@@ -28,12 +28,12 @@ The mat-a1 gene sequence was downloaded from [NCBI](https://www.ncbi.nlm.nih.gov
 
 	$ samtools faidx data/ntet_2509/GCA_000213195.1_v1.0_genomic.fna GL890999.1:7682534-7683960 > data/2509_mat_a1.fasta
  
-## Extracted the matA1,matA2 and matA3 locations for Ncra and Ntet reference genome using the gff files
+## Extracted the mat A-1, mat A-2 and mat A-3 locations for Ncra and Ntet reference genome using the gff files
 
 	$ zgrep "Name=matA" data/ncra_NC12/GCF_000182925.2_NC12_genomic.gff.gz | cut -f1,4-5 > ncra_matA_genes.txt
 	$ cat ntet_2508_matA_locus_genes.txt | while read i j k l; do samtools faidx data/ntet_2508/GCF_000213175.1_v2.0_genomic.fna.gz $i:$j-$k > data/2508.$l.fasta ; done
 
-## Extracted the matA-1, matA-2, matA-3 and mat-a1 locations from N. discreta and the N. tetrasperma de Novo genomes using blastn.
+## Extracted the mat A-1, mat A-2, mat A-3 and mat a-1 locations from N. discreta and the N. tetrasperma deNovo genomes using blastn.
 
 Extracted the top hit from the blast hit and extracted the region using samtools faidx
 	
