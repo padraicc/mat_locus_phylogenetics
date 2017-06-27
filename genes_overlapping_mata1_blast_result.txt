@@ -1,0 +1,17 @@
+GL890999.1	Genbank	region	1	9465266	.	+	.	ID=id0;Dbxref=taxon:510952;Name=Unknown;chromosome=Unknown;gbkey=Src;genome=genomic;mating-type=mat a;mol_type=genomic DNA;strain=FGSC 2509
+GL890999.1	Genbank	CDS	7682534	7682703	.	+	0	ID=cds2113;Parent=rna2113;Dbxref=InterPro:IPR000910,JGIDB:Neute_mat_a1_124723,NCBI_GP:EGZ78200.1;Name=EGZ78200.1;Note=HMG_box-domain-containing protein;gbkey=CDS;product=hypothetical protein;protein_id=EGZ78200.1
+GL890999.1	Genbank	exon	7682534	7682703	.	+	.	ID=id6000;Parent=rna2113;gbkey=mRNA;partial=true;product=hypothetical protein;start_range=.,7682534
+GL890999.1	Genbank	gene	7682534	7683960	.	+	.	ID=gene2113;Name=NEUTE2DRAFT_124723;end_range=7683960,.;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NEUTE2DRAFT_124723;partial=true;start_range=.,7682534
+GL890999.1	Genbank	mRNA	7682534	7683960	.	+	.	ID=rna2113;Parent=gene2113;end_range=7683960,.;gbkey=mRNA;partial=true;product=hypothetical protein;start_range=.,7682534
+GL890999.1	Genbank	CDS	7682757	7683025	.	+	1	ID=cds2113;Parent=rna2113;Dbxref=InterPro:IPR000910,JGIDB:Neute_mat_a1_124723,NCBI_GP:EGZ78200.1;Name=EGZ78200.1;Note=HMG_box-domain-containing protein;gbkey=CDS;product=hypothetical protein;protein_id=EGZ78200.1
+GL890999.1	Genbank	exon	7682757	7683025	.	+	.	ID=id6001;Parent=rna2113;gbkey=mRNA;partial=true;product=hypothetical protein
+GL890999.1	Genbank	CDS	7683083	7683709	.	+	2	ID=cds2113;Parent=rna2113;Dbxref=InterPro:IPR000910,JGIDB:Neute_mat_a1_124723,NCBI_GP:EGZ78200.1;Name=EGZ78200.1;Note=HMG_box-domain-containing protein;gbkey=CDS;product=hypothetical protein;protein_id=EGZ78200.1
+GL890999.1	Genbank	exon	7683083	7683709	.	+	.	ID=id6002;Parent=rna2113;gbkey=mRNA;partial=true;product=hypothetical protein
+GL890999.1	Genbank	CDS	7683776	7683960	.	+	2	ID=cds2113;Parent=rna2113;Dbxref=InterPro:IPR000910,JGIDB:Neute_mat_a1_124723,NCBI_GP:EGZ78200.1;Name=EGZ78200.1;Note=HMG_box-domain-containing protein;gbkey=CDS;product=hypothetical protein;protein_id=EGZ78200.1
+GL890999.1	Genbank	exon	7683776	7683960	.	+	.	ID=id6003;Parent=rna2113;end_range=7683960,.;gbkey=mRNA;partial=true;product=hypothetical protein
+GL890999.1	Genbank	exon	7685077	7685481	.	-	.	ID=id6005;Parent=rna2114;gbkey=mRNA;partial=true;product=DNase I-like protein
+GL890999.1	Genbank	gene	7685077	7687457	.	-	.	ID=gene2114;Name=NEUTE2DRAFT_154650;end_range=7687457,.;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NEUTE2DRAFT_154650;partial=true;start_range=.,7685077
+GL890999.1	Genbank	mRNA	7685077	7687457	.	-	.	ID=rna2114;Parent=gene2114;end_range=7687457,.;gbkey=mRNA;partial=true;product=DNase I-like protein
+GL890999.1	Genbank	CDS	7685366	7685481	.	-	2	ID=cds2114;Parent=rna2114;Dbxref=InterPro:IPR005135,JGIDB:Neute_mat_a1_154650,NCBI_GP:EGZ78201.1;Name=EGZ78201.1;gbkey=CDS;product=DNase I-like protein;protein_id=EGZ78201.1
+GL890999.1	Genbank	CDS	7685609	7687457	.	-	0	ID=cds2114;Parent=rna2114;Dbxref=InterPro:IPR005135,JGIDB:Neute_mat_a1_154650,NCBI_GP:EGZ78201.1;Name=EGZ78201.1;gbkey=CDS;product=DNase I-like protein;protein_id=EGZ78201.1
+GL890999.1	Genbank	exon	7685609	7687457	.	-	.	ID=id6004;Parent=rna2114;end_range=7687457,.;gbkey=mRNA;partial=true;product=DNase I-like protein

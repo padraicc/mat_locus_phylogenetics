@@ -1,0 +1,2 @@
+scaffold378	55652	54847	minus
+scaffold378	55991	55698	minus

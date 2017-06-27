@@ -1,0 +1,2 @@
+scaffold1034	130037	129239	minus
+scaffold1034	130405	130106	minus

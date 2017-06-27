@@ -1,0 +1,2 @@
+scaffold317	72363	73125	plus
+scaffold317	71976	72300	plus

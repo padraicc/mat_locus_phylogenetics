@@ -1,0 +1,1 @@
+supercontig1	7647738	7648875	plus

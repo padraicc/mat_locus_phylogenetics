@@ -1,0 +1,3 @@
+data/alignments/matA1.fasta
+data/alignments/matA2.fasta
+data/alignments/matA3.fasta

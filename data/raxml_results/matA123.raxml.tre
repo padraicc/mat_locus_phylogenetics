@@ -1,0 +1,121 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=27;
+	taxlabels
+	N_crassa_OR74A_ncra[&!name="N. crassa 2489",!color=#0000ff]
+	N_discreta_8579_ndis[&!name="N. discreta 8579",!color=#0000ff]
+	N_hispaniola_8817[&!name="N. hispaniola 8817",!color=#0000ff]
+	N_sitophila_1135[&!name="N. sitophila 1135",!color=#0000ff]
+	N_sitophila_W1434pb[&!name="N. sitophila W1434",!color=#0000ff]
+	N_tetrasperma_2503pb_L8[&!name="N. tetrasperma CJ85 L8",!color=#ff0000]
+	N_tetrasperma_2508_L6[&!name="N. tetrasperma 2508 L6",!color=#ff0000]
+	N_tetrasperma_4492A_L1[&!name="N. tetrasperma 9033 L1",!color=#ff0000]
+	N_tetrasperma_9045pb_L7[&!name="N. tetrasperma CJ73 L7",!color=#ff0000]
+	N_tetrasperma_965A_om_L9[&!name="N tetrasperma 965A L9",!color=#ff0000]
+	N_tetrasperma_CJ15_L10[&!name="N. tetrasperma CJ15 L10",!color=#ff0000]
+	N_tetrasperma_CJ25_L5[&!name="N. tetrasperma CJ25 L5",!color=#ff0000]
+	N_tetrasperma_RLM131A_L4[&!name="N. tetrasperma RLM131A L4",!color=#ff0000]
+	Neurospora_crassa_A_8856_mat_BA[&!name="N. crassa NcA 8856",!color=#0000ff]
+	Neurospora_crassa_A_8900_mat_BA[&!name="N. crassa NcA 8900",!color=#0000ff]
+	Neurospora_crassa_B_8830_mat_BA[&!name="N. crassa NcB 8830",!color=#0000ff]
+	Neurospora_crassa_C_8858_mat_BA[&!name="N. crassa NcC 8858",!color=#0000ff]
+	Neurospora_discreta_8780_mat_BA[&!name="N. discreta 8780",!color=#0000ff]
+	Neurospora_hispaniola_PS1_8818_mat_BA[&!name="N. hispaniola 8818",!color=#0000ff]
+	Neurospora_intermedia_A_8786_mat_BA[&!name="N. intermedia NiA 8786",!color=#0000ff]
+	Neurospora_intermedia_A_8901_mat_BA[&!name="N. intermedia NiA 8901",!color=#0000ff]
+	Neurospora_intermedia_B_8840_mat_BA[&!name="N. intermedia NiB 8840",!color=#0000ff]
+	Neurospora_intermedia_B_8844_mat_BA[&!name="N. intermedia NiB 8844",!color=#0000ff]
+	Neurospora_metzenbergii_PS2_8847_mat_BA[&!name="N. metzenbergii 8847",!color=#0000ff]
+	Neurospora_metzenbergii_PS2_8880_mat_BA[&!name="N. metzenbergii 8880",!color=#0000ff]
+	Neurospora_perkinsii_PS3_8838_mat_BA[&!name="N. perkinsii 8838",!color=#0000ff]
+	Neurospora_sitophila_8770_mat_BA[&!name="N. sitophila 8770",!color=#0000ff]
+;
+end;
+
+begin trees;
+	tree tree0 = [&R] (((Neurospora_metzenbergii_PS2_8880_mat_BA:5.75E-4,Neurospora_metzenbergii_PS2_8847_mat_BA:8.63E-4)[&boot=1.0]:5.75E-4,((((Neurospora_sitophila_8770_mat_BA:5.75E-4,N_sitophila_W1434pb:1.0E-6)[&boot=1.0]:0.001906,N_sitophila_1135:0.004916)[&boot=1.0]:0.001351,(N_tetrasperma_RLM131A_L4:0.001353,(N_tetrasperma_CJ15_L10:0.001896,(N_hispaniola_8817:1.0E-6,Neurospora_hispaniola_PS1_8818_mat_BA:1.0E-6)[&boot=1.0]:0.002441)[&boot=0.353]:1.0E-6)[&boot=1.0]:0.001085)[&boot=0.997]:2.69E-4,((N_tetrasperma_CJ25_L5:1.0E-6,N_tetrasperma_2508_L6:1.0E-6)[&boot=1.0,!rotate=true]:0.004492,(((Neurospora_intermedia_B_8844_mat_BA:0.008252,((Neurospora_intermedia_B_8840_mat_BA:8.64E-4,Neurospora_intermedia_A_8901_mat_BA:2.87E-4)[&boot=1.0]:8.62E-4,Neurospora_intermedia_A_8786_mat_BA:0.001733)[&boot=1.0]:0.004885)[&boot=0.987]:5.33E-4,Neurospora_crassa_C_8858_mat_BA:0.003849)[&boot=1.0]:0.00537,((N_tetrasperma_965A_om_L9:0.005923,(N_tetrasperma_2503pb_L8:8.12E-4,(N_tetrasperma_9045pb_L7:0.001084,N_tetrasperma_4492A_L1:5.41E-4)[&boot=0.904]:1.0E-6)[&boot=1.0]:0.003385)[&boot=1.0]:0.003498,(Neurospora_discreta_8780_mat_BA:0.007973,N_discreta_8579_ndis:0.020492)[&boot=1.0,!rotate=true]:0.070278)[&boot=1.0,!rotate=true]:0.010402)[&boot=0.752,!rotate=true]:2.18E-4)[&boot=1.0,!rotate=true]:0.005071)[&boot=0.809]:1.0E-6)[&boot=0.849]:1.0E-6,(((Neurospora_crassa_A_8856_mat_BA:1.0E-6,Neurospora_crassa_B_8830_mat_BA:0.00115)[&boot=0.983]:2.87E-4,Neurospora_crassa_A_8900_mat_BA:0.001439)[&boot=0.773]:1.0E-6,Neurospora_perkinsii_PS3_8838_mat_BA:8.62E-4)[&boot=1.0]:0.004332,N_crassa_OR74A_ncra:0.006308)[&boot=1.0];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="boot";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=10;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="boot";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute="User selection";
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

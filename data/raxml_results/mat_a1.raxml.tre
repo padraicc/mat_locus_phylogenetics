@@ -1,0 +1,122 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=28;
+	taxlabels
+	N_crassa_OR74A_ncra[&!name="N. crassa 4200",!color=#0000ff]
+	N_intermedia_8807pb[&!name="N. intermedia NiA 8807",!color=#0000ff]
+	N_tetrasperma_10752pb_L9[&!name="N. tetrasperma 965a L9",!color=#ff0000]
+	N_tetrasperma_2504pb_L8[&!name="N. tetrasperma CJ86 L8",!color=#ff0000]
+	N_tetrasperma_2509_L6[&!name="N. tetrasperma 2509 L6",!color=#ff0000]
+	N_tetrasperma_4492_a_om_L1[&!name="N. tetrasperma 9034",!color=#ff0000]
+	N_tetrasperma_9046pb_L7[&!name="N. tetrasperma CJ74 L7",!color=#ff0000]
+	N_tetrasperma_CJ16_L10[&!name="N. tetrasperma CJ16 L10",!color=#ff0000]
+	N_tetrasperma_CJ26_L5[&!name="N. tetrasperma CJ26 L5",!color=#ff0000]
+	N_tetrasperma_RLM131_a_L4[&!name="N. tetrasperma RLM131a L4",!color=#ff0000]
+	Neurospora_crassa_A_8848_mat_a1[&!name="N. crassa NcA 8848",!color=#0000ff]
+	Neurospora_crassa_A_8876_mat_a1[&!name="N. crassa NcA 8876",!color=#0000ff]
+	Neurospora_crassa_B_8771_mat_a1[&!name="N. crassa NcB 8771",!color=#0000ff]
+	Neurospora_crassa_B_8772_mat_a1[&!name="N. crassa NcB 8772",!color=#0000ff]
+	Neurospora_crassa_C_8860_mat_a1[&!name="N. crassa NcC 8860",!color=#0000ff]
+	Neurospora_crassa_C_8863_mat_a1[&!name="N. crassa NcC 8863",!color=#0000ff]
+	Neurospora_discreta_8827_mat_a1[&!name="N. discreta 8827",!color=#0000ff]
+	Neurospora_hispaniola_PS1_8815_mat_a1[&!name="N. hispaniola 8815",!color=#0000ff]
+	Neurospora_intermedia_A_8776_mat_a1[&!name="N. intermedia NiA 8776",!color=#0000ff]
+	Neurospora_intermedia_A_8841_mat_a1[&!name="N. intermedia NiA 8841",!color=#0000ff]
+	Neurospora_intermedia_A_8869_mat_a1[&!name="N. intermedia NiA 8869",!color=#0000ff]
+	Neurospora_intermedia_B_8768_mat_a1[&!name="N. intermedia NiB 8768",!color=#0000ff]
+	Neurospora_intermedia_B_8778_mat_a1[&!name="N. intermedia NiB 8778",!color=#0000ff]
+	Neurospora_metzenbergii_PS2_8853_mat_a1[&!name="N. metzenbergii 8853",!color=#0000ff]
+	Neurospora_metzenbergii_PS2_8881_mat_a1[&!name="N. metzenbergii 8881",!color=#0000ff]
+	Neurospora_perkinsii_PS3_8835_mat_a1[&!name="N. perkinsii 8835",!color=#0000ff]
+	Neurospora_perkinsii_PS3_8842_mat_a1[&!name="N. perkinsii 8842",!color=#0000ff]
+	Neurospora_sitophila_412_mat_a1[&!name="N. sitophila 412",!color=#0000ff]
+;
+end;
+
+begin trees;
+	tree tree0 = [&R] ((N_tetrasperma_10752pb_L9:0.006561,((((Neurospora_crassa_C_8863_mat_a1:7.01E-4,Neurospora_crassa_C_8860_mat_a1:1.0E-6)[&boot=1.0]:0.004258,(Neurospora_intermedia_A_8869_mat_a1:1.0E-6,N_intermedia_8807pb:1.0E-6)[&boot=0.999]:0.002843)[&boot=0.893]:6.88E-4,((Neurospora_intermedia_A_8776_mat_a1:1.0E-6,Neurospora_intermedia_A_8841_mat_a1:0.001406)[&boot=0.956]:0.001413,(Neurospora_intermedia_B_8778_mat_a1:0.001418,Neurospora_intermedia_B_8768_mat_a1:7.03E-4)[&boot=0.952]:0.001412)[&boot=0.844]:7.03E-4)[&boot=0.964,!rotate=true]:0.002125,(Neurospora_metzenbergii_PS2_8881_mat_a1[&!rotate=true]:7.12E-4,((Neurospora_metzenbergii_PS2_8853_mat_a1[&!rotate=true]:1.0E-6,((Neurospora_crassa_B_8771_mat_a1[&!rotate=true]:1.0E-6,Neurospora_crassa_B_8772_mat_a1[&!rotate=true]:1.0E-6)[&boot=0.993,!rotate=true]:0.003541,(Neurospora_perkinsii_PS3_8842_mat_a1[&!rotate=false]:1.0E-6,Neurospora_perkinsii_PS3_8835_mat_a1[&!rotate=false]:1.0E-6)[&boot=0.909,!rotate=true]:0.001407)[&boot=0.498,!rotate=false]:1.0E-6)[&boot=0.393,!rotate=false]:1.0E-6,(Neurospora_crassa_A_8848_mat_a1[&!rotate=false]:7.03E-4,(Neurospora_crassa_A_8876_mat_a1[&!rotate=true]:1.0E-6,N_crassa_OR74A_ncra[&!rotate=false]:1.0E-6)[&boot=0.553,!rotate=false]:1.0E-6)[&boot=0.919,!rotate=true]:0.00141)[&boot=0.922,!rotate=false]:0.001409)[&boot=0.876,!rotate=true]:7.01E-4)[&boot=0.967,!rotate=true]:0.001304)[&boot=0.999,!rotate=true]:0.008821,(((((N_tetrasperma_2509_L6:1.0E-6,N_tetrasperma_CJ26_L5:1.0E-6)[&boot=0.346]:1.0E-6,N_tetrasperma_CJ16_L10:1.0E-6)[&boot=0.977,!rotate=true]:7.05E-4,Neurospora_sitophila_412_mat_a1:0.002814)[&boot=0.928,!rotate=true]:0.001404,(N_tetrasperma_2504pb_L8:1.0E-6,N_tetrasperma_RLM131_a_L4:7.02E-4)[&boot=0.997]:0.003539)[&boot=0.914,!rotate=true]:7.34E-4,(N_tetrasperma_4492_a_om_L1:0.002158,(Neurospora_hispaniola_PS1_8815_mat_a1:0.001415,N_tetrasperma_9046pb_L7:6.95E-4)[&boot=0.998]:0.005692)[&boot=0.561]:6.75E-4)[&boot=0.994,!rotate=true]:0.005201,Neurospora_discreta_8827_mat_a1[&!rotate=false]:0.062988)[&boot=1.0];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="boot";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=10;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="boot";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute="User selection";
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

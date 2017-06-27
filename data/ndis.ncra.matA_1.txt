@@ -1,0 +1,7 @@
+# BLASTN 2.6.0+
+# Query: NC_026501.1:1860692-1862194
+# Database: data/ndis_8579/Neurospora_discreta.AssemblyScaffolds.fasta
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+NC_026501.1:1860692-1862194	scaffold_2	90.864	1401	116	4	1	1400	1676701	1678090	0.0	1868
+# BLAST processed 1 queries

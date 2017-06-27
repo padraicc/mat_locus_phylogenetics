@@ -1,0 +1,5 @@
+data/alignments/matA1.fasta
+data/alignments/matA123.fasta
+data/alignments/matA123.phylo_set.fasta
+data/alignments/matA2.fasta
+data/alignments/matA3.fasta
