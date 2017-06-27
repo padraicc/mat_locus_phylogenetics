@@ -1,4 +1,4 @@
-# Phylogenetic analysis of mat-a1 and mat A-1, mat A-2 and mat-3 genes for Neurospora tetrasperma and heterothallic Neurospora
+# Phylogenetic analysis of mat-a1 and mat A-1, mat A-2 and mat-A3 genes for Neurospora tetrasperma and heterothallic Neurospora
 
 Extracted mat-a1 and mat-A genes using blastn, aligned sequences using MUSCLE and performed phylogenetic analysis using
 RAxML
@@ -54,7 +54,7 @@ study of [Strandberg et al. 2010](https://www.ncbi.nlm.nih.gov/pubmed/20601044)
 	$ qsub raxml_command.sh
 	$ bash map_bootstrap.sh
 	
-Trees were visualised and sample names modified using the FigTree tree viewing program.
+Trees were visualised and sample names modified using the FigTree tree viewing program. The best trees found by RAxML are located [here](https://github.com/padraicc/mat_locus_phylogenetics/tree/master/data/raxml_results)
 	
   
   
