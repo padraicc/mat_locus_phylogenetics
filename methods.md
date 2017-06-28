@@ -18,7 +18,7 @@ the *mat* a-1 sequence for that genome. The extracted *mat* a-1
 sequences from the *Neurospora mat* a genomes used in this study were
 then combined with the mat *a-1* alignments of heterothallic species
 from Strandberg et al. [2] and aligned using MUSCLE v3.8.31 to generate
-a *mat* a-1 alignment. Due to the lack of polymorphism observed with
+a *mat* a-1 alignment. Due to the lack of polymorphism observed within
 each *N. tetrasperma* lineage in the *mat* a-1 alignment for
 phylogenetic analysis, a single *N. tetrasperma* *mat* a strain was
 selected from each lineage in the phylogenetic analysis described below.
