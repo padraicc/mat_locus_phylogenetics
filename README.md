@@ -7,7 +7,9 @@ The maximum likelihood best phylogenetic tree for mat-a1 and the tree for the co
 
 ## Programs used
 
- + blastn from BLAST 2.6.0+  
+ + blastn from BLAST 2.6.0+ 
+ + samtoools v1.4
+ + seqtk v1.2-r94
  + MUSCLE v3.8.31  
  + egglib v3.0.0b13  
  + RAxML v8.2.4  
