@@ -30,7 +30,7 @@ crassa* reference genome (version 12)
 and also obtained the *N. tetrasperma* *mat* A sequences from the
 annotation file of the *N. tetrasperma 2508* reference genome (version 2
 (<ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/fungi/Neurospora_tetrasperma/all_assembly_versions/GCF_000213175.1_v2.0/)>.
-We used the *mat* A-1*, mat* A-3 and *mat* A-3 sequences as the queries
+We used the *mat* A-1, *mat* A-3 and *mat* A-3 sequences as the queries
 in blastn searches against the *mat* A Neurospora genomes listed in
 Table 1 and Supplementary Table S5, and the *Neurospora discreta* (FGSC
 8579) reference genome sequence
