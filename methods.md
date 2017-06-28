@@ -11,32 +11,29 @@ gene2113 from the L6 2509 *N. tetrasperma* reference annotation file, as
 this gene overlapped the best blast hit coordinates and encoded a
 HMG-Box domain in its protein. The sequence of gene2113, identified as
 *mat* a-1 gene, was then used as the query sequence in a blastn search
-against each of the denovo assemblies of the *N. tetrasperma* genomes
-listed in table 1 and supplementary table 5. The top result for each
-blastn search against an *N. tetrasperma* genome was extracted as the
-*mat* a-1 sequence for that genome. The *mat* a-1 sequence from *N.
-tetrasperma* 2509 was also used as the query in a blastn search to
-identify the *mat* a-1 in the *N. intermedia* 8807 genome generated in
-this study (Table 1). The *mat* a-1 sequences for *N. tetrasperma*
-strains and *N. intermedia* 8807 were then combined with the mat *a-1*
-alignments of heterothallic species from Strandberg et al. [2] and
-aligned using MUSCLE v3.8.31 to generate a *mat* a-1 alignment. Due to
-the lack of polymorphism observed with each *N. tetrasperma* lineage in
-the *mat* a-1 alignment, a single *N. tetrasperma* *mat* a strain was
-selected from each lineage in the phylogenetic analysis described below.
+against each of the denovo assemblies of the *mat* a *Neurospora*
+genomes listed in Table 1 and Supplementary Table 5. The top result for
+each blastn search against an *N. tetrasperma* genome was extracted as
+the *mat* a-1 sequence for that genome. The *mat* a-1 sequences for
+*Neurospora mat* a genomes used in this study were then combined with
+the mat *a-1* alignments of heterothallic species from Strandberg et al.
+[2] and aligned using MUSCLE v3.8.31 to generate a *mat* a-1 alignment.
+Due to the lack of polymorphism observed with each *N. tetrasperma*
+lineage in the *mat* a-1 alignment for phylogenetic analysis. A single
+*N. tetrasperma* *mat* a strain was selected from each lineage in the
+phylogenetic analysis described below.
 
 We obtained the location of the *mat* A-1, *mat* A-3 and *mat* A-3 gene
 sequences for *N. crassa* from the gff annotation file of the *N.
 crassa* reference genome (version 12)
 (<ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/182/925/GCF_000182925.2_NC12/)>
 and also obtained the *N. tetrasperma* *mat* A sequences from the
-annotation file of the *N. tetrasperma 2508* reference genome (version
-2)
+annotation file of the *N. tetrasperma 2508* reference genome (version 2
 (<ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/fungi/Neurospora_tetrasperma/all_assembly_versions/GCF_000213175.1_v2.0/)>.
 We used the *mat* A-1*, mat* A-3 and *mat* A-3 sequences as the queries
-in blastn searches against the *mat* A genomes Neurospora generated
-Table 1 and supplementary table S5, and the *Neurospora
-discreta* reference genome sequence of the *mat A* FGSC 8579
+in blastn searches against the *mat* A Neurospora genomes listed in
+Table 1 and Supplementary Table S5, and the *Neurospora discreta* (FGSC
+8579) reference genome sequence
 (<http://genome.jgi.doe.gov/Neudi1/Neudi1.download.ftp.html)>. The *mat*
 A-1, *mat* A-2 and *mat* A-3 sequences for *N. tetrasperma* strains and
 *N. crassa* reference genome were then combined with the appropriate
@@ -55,7 +52,7 @@ A maximum likelihood tree was reconstructed for the *mat* a-1 alignment
 and the *mat*A123 using RAxML [5] v8.2.4 with a GTRGAMMA model and 1000
 bootstrap replicates were performed. All scripts used to carry out the
 above steps and the phylogenetic trees generated are located at
-https://github.com/padraicc/mat\_locus\_phylogenetics.
+<https://github.com/padraicc/mat_locus_phylogenetics>.
 
 **References**
 
