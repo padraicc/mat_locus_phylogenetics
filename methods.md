@@ -5,7 +5,7 @@ blastn from BLAST 2.6.0+ [1] to search the *N. crassa* (FGSC 4200)
 partial sequence of the *mat a* strain (GenBank accession number M54787)
 against the L6 2509 *N. tetrasperma* reference *mat* a genome (version
 1)
-(ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/213/195/GCA\_000213195.1_v1.0).
+(ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/213/195/GCA_000213195.1_v1.0).
 We then identified the *mat* a-1 gene in *N. tetrasperma* 2509 *as*
 gene2113 from the L6 2509 *N. tetrasperma* reference annotation file, as
 this gene overlapped the best blast hit coordinates and encoded a
