@@ -3,7 +3,7 @@
 ## Summary
 Identified mat-a1 and mat-A genes for N. tetrasperma genomes using blastn, aligned sequences using MUSCLE and performed phylogenetic analysis using RAxML. The details of the steps are given below and are described in further details [here](https://github.com/padraicc/mat_locus_phylogenetics/blob/master/methods.md)
 
-The maximum likelihood best phylogenetic tree for mat-a1 and the tree for the concatenated mat-A1, A2 and A3 are located [here](https://github.com/padraicc/mat_locus_phylogenetics/tree/master/data/raxml_results)
+The maximum likelihood phylogenetic tree for mat-a1 and the tree for the concatenated mat-A1, A2 and A3 are located [here](https://github.com/padraicc/mat_locus_phylogenetics/tree/master/data/raxml_results)
 
 ## Programs used
 
